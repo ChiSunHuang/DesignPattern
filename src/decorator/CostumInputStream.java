@@ -1,4 +1,4 @@
-package Decorator;
+package decorator;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
