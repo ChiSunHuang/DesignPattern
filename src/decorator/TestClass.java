@@ -1,5 +1,7 @@
 package decorator;
 
+import java.util.HashMap;
+
 public class TestClass {
 
 	public static void main(String[] args) {
@@ -9,6 +11,7 @@ public class TestClass {
 		Beverage b3 = new MoCha(b2);
 		System.out.println(b1.getDescription());
 		System.out.println(b1.cost());
+	   
 	}
 
 }
